@@ -17,7 +17,7 @@ npm i twilio
 
 # Create a new Factor
 ```js
-const accountSid = '[ACCOUNT_SID];
+const accountSid = '[ACCOUNT_SID]';
 const authToken = '[AUTH_TOKEN]';
 
 const client = require('twilio')(accountSid, authToken);
@@ -54,7 +54,7 @@ client.verify.v2.services('VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
 is neccesary to do this first verification to use the authenticator with this user
 
 # Validate a token
-after all that, we can validate owr token:
+after all that, we can validate our token:
 
 ```js
 const accountSid = process.env.TWILIO_ACCOUNT_SID;
